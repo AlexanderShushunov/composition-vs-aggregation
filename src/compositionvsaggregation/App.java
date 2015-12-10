@@ -1,3 +1,5 @@
+package compositionvsaggregation;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -31,7 +33,7 @@ class Person {
 
 	@Override
 	public String toString() {
-		return "Person{" +
+		return "compositionvsaggregation.Person{" +
 				"name='" + name + '\'' +
 				", birthDay=" + birthDay +
 				(children.size() > 0 ? ", children=" + children : "") +
